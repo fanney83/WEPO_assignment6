@@ -1,0 +1,146 @@
+/* EDIT BELOW THIS LINE */
+
+/* Add styles for section-1 */
+
+.section-1 {
+    height: 200px;
+}
+.section-1 .flex-item {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    align-items: center;
+    flex-grow: 1;
+}
+.section-1 .flex-item:nth-of-type(odd) {
+    flex-grow: 2;
+}
+
+/* Add styles for section-2 */
+
+.section-2 {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.section-2 .flex-item:nth-of-type(1) {
+    align-self: flex-start;
+    flex-grow: 2;
+    width: 50%;
+
+}
+.section-2 .flex-item:nth-of-type(5) {
+    align-self: flex-end;
+    flex-grow: 2;
+    width: 50%;
+}
+
+/* Add styles for section-3 */
+.section-3 {
+    display: flex;
+    flex-flow: row wrap;
+}
+.section-3 .flex-item {
+    flex-basis: 20%;
+}
+
+.section-3 .flex-item:nth-of-type(1) {
+    align-self: stretch;
+}
+.section-3 .flex-item:nth-of-type(6) {
+
+}
+.section-3 .flex-item:nth-of-type(2) {
+
+}
+.section-3 .flex-item:nth-of-type(3) {
+}
+.section-3 .flex-item:nth-of-type(4) {
+}
+.section-3 .flex-item:nth-of-type(5) {
+
+}
+
+/* Add styles for section-4 */
+
+.section-4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-4 .flex-item {
+    height: 60px;
+    width: 100px;
+}
+
+/* Add styles for section-5 */
+
+.section-5 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+}
+.section-5 .green{
+    order: 5;
+}
+
+/* Add styles for section-6 */
+
+.section-6 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+/* Add styles for section-7 */
+.section-7 {
+    display: flex;
+    flex-flow: column-reverse wrap-reverse;
+    justify-content: space-around;
+    align-content: space-between;
+    flex-wrap: wrap-reverse;
+}
+
+.section-7 .carebear-yellow {
+    order: -1;
+    flex-grow: 1;
+}
+.section-7 .carebear-pink {
+    order: 3;
+}
+.section-7 .carebear-blue {
+    order: 1;
+    flex-grow: 1;
+}
+.section-7 .carebear-red{
+    order: 2;
+    flex-grow: 1;
+}
+.section-7 .carebear-green {
+    order: 1;
+    flex-grow: 1;
+}
+
+/* Add styles for section-8 */
+
+.section-8 {
+    display: flex;
+    flex-flow: column-reverse;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.section-8 .flex-item {
+    flex-basis: 20%;
+}
+
+.section-8 .flex-item:nth-of-type(1) {
+    align-self: stretch;
+    flex-basis: 100%;
+    flex-grow: 3;
+}
